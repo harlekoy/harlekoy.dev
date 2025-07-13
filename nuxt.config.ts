@@ -5,9 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/icon'],
   app: {
     head: {
-      link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-      ]
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
     }
   },
   // Cloudflare Pages configuration
@@ -15,10 +13,14 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages',
     nodeCompat: true
   },
-  // Build configuration for static site generation
+  // Enable static site generation
   ssr: true,
-  // Ensure proper static generation
   experimental: {
     payloadExtraction: false
+  },
+  // This is the key part:
+  prerender: {
+    crawlLinks: true,
+    routes: ['/'] // Add any specific routes you want to include explicitly
   }
 })
