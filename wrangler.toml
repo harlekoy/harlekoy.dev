@@ -1,0 +1,9 @@
+[build]
+command = "pnpm generate"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "22"
+
+[pages]
+name = "harlekoy-dev" 
