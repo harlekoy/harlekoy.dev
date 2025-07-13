@@ -1,6 +1,0 @@
-name = "harlekoy-dev"
-compatibility_date = "2025-07-13"
-
-[pages]
-project = "harlekoy-dev"
-directory = "./dist"
