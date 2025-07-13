@@ -12,7 +12,8 @@ export default defineNuxtConfig({
   },
   // Cloudflare Pages configuration
   nitro: {
-    preset: 'cloudflare-pages'
+    preset: 'cloudflare-pages',
+    nodeCompat: true
   },
   // Build configuration for static site generation
   ssr: true,
