@@ -490,7 +490,7 @@
     <footer class="py-8 px-4 sm:px-6 lg:px-8 bg-black">
       <div class="max-w-7xl mx-auto text-center">
         <p class="text-gray-400">
-          © {{ currentYear }} Harley. Crafted with ❤️ and lots of 🍺
+          © {{ currentYear }} Harley. Crafted with ❤️ and lots of 🥭
         </p>
       </div>
     </footer>
