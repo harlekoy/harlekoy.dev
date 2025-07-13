@@ -109,7 +109,7 @@
                 <div class="p-4 flex flex-col justify-center">
                   <h4 class="text-white font-bold text-lg mb-2">Laravel</h4>
                   <p class="text-gray-300 text-sm leading-relaxed mb-3">
-                    I have vast experience with Laravel, including Inertia, Livewire, Nova, and Filament.
+                    Started using Laravel from version 4.2 and since then I'm hooked up to its ecosystem and all of the community building packages and tools on top of it.
                   </p>
                 </div>
               </div>
@@ -122,7 +122,7 @@
                 <div class="p-4 flex flex-col justify-center">
                   <h4 class="text-white font-bold text-lg mb-2">Vue.js</h4>
                   <p class="text-gray-300 text-sm leading-relaxed mb-3">
-                    I have vast experience with Laravel, including Inertia, Livewire, Nova, and Filament.
+                    I was an early adopter of Vue.js, first introduced to it when Taylor Otwell and Jeffrey Way featured it in a Laracasts course—which I thoroughly enjoyed. It’s been a long journey, and I still love using it.
                   </p>
                 </div>
               </div>
@@ -135,7 +135,7 @@
                 <div class="p-4 flex flex-col justify-center">
                   <h4 class="text-white font-bold text-lg mb-2">TailwindCSS</h4>
                   <p class="text-gray-300 text-sm leading-relaxed mb-3">
-                    I have vast experience with Laravel, including Inertia, Livewire, Nova, and Filament.
+                    I love writing CSS using Tailwind speeding up development.
                   </p>
                 </div>
               </div>
@@ -148,7 +148,7 @@
                 <div class="p-4 flex flex-col justify-center">
                   <h4 class="text-white font-bold text-lg mb-2">Nuxt</h4>
                   <p class="text-gray-300 text-sm leading-relaxed mb-3">
-                    I have vast experience with Laravel, including Inertia, Livewire, Nova, and Filament.
+                    Nuxt is a great framework on top of Vue.js which helps us build apps faster.
                   </p>
                 </div>
               </div>
