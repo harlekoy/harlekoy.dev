@@ -29,7 +29,7 @@
             <a href="https://github.com/harlekoy" target="_blank" rel="noopener noreferrer">
               <Icon name="fa6-brands:github" class="text-emerald-400 hover:text-white text-2xl transition-colors duration-200" />
             </a>
-            <a href="https://x.com/harlequindoyon" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/harlekoy" target="_blank" rel="noopener noreferrer">
               <Icon name="fa6-brands:x-twitter" class="text-emerald-400 hover:text-white text-2xl transition-colors duration-200" />
             </a>
           </div>
