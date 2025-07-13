@@ -10,9 +10,14 @@ export default defineNuxtConfig({
       ]
     }
   },
-  vite: {
-    server: {
-      allowedHosts: ['harlekoy.test']
-    }
+  // Cloudflare Pages configuration
+  nitro: {
+    preset: 'cloudflare-pages'
+  },
+  // Build configuration for static site generation
+  ssr: true,
+  // Ensure proper static generation
+  experimental: {
+    payloadExtraction: false
   }
 })
