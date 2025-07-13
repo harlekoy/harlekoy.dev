@@ -13,14 +13,15 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages',
     nodeCompat: true
   },
+  // Vite configuration to allow all hosts
+  vite: {
+    server: {
+      allowedHosts: ['harlekoy.test']
+    }
+  },
   // Enable static site generation
   ssr: true,
   experimental: {
     payloadExtraction: false
-  },
-  // This is the key part:
-  prerender: {
-    crawlLinks: true,
-    routes: ['/'] // Add any specific routes you want to include explicitly
   }
 })

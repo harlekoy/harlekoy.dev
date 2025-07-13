@@ -103,7 +103,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="bg-gray-800/70 rounded-2xl overflow-hidden hover:bg-gray-800/90 transition-all duration-300 shadow-md hover:shadow-lg group">
               <div class="grid grid-cols-2">
-                <div class="bg-gradient-to-r from-red-500 to-orange-500 flex items-center justify-center overflow-hidden">
+                <div class="bg-gray-800 flex items-center justify-center overflow-hidden">
                   <img src="/tech/laravel.png" alt="Laravel" class="w-full h-full object-cover scale-125 group-hover:scale-100 transition-transform duration-500 ease-out" style="transform-origin: 0% 0%;" />
                 </div>
                 <div class="p-4 flex flex-col justify-center">
@@ -116,7 +116,7 @@
             </div>
             <div class="bg-gray-800/70 rounded-2xl overflow-hidden hover:bg-gray-800/90 transition-all duration-300 shadow-md hover:shadow-lg group">
               <div class="grid grid-cols-2">
-                <div class="bg-gradient-to-r from-red-500 to-orange-500 flex items-center justify-center overflow-hidden">
+                <div class="bg-gray-800 flex items-center justify-center overflow-hidden">
                   <img src="/tech/vuejs_train.png" alt="Laravel" class="w-full h-full object-cover scale-150 group-hover:scale-100 transition-transform duration-500 ease-out" style="transform-origin: 50% 80%;" />
                 </div>
                 <div class="p-4 flex flex-col justify-center">
@@ -129,7 +129,7 @@
             </div>
             <div class="bg-gray-800/70 rounded-2xl overflow-hidden hover:bg-gray-800/90 transition-all duration-300 shadow-md hover:shadow-lg group">
               <div class="grid grid-cols-2">
-                <div class="bg-gradient-to-r from-red-500 to-orange-500 flex items-center justify-center overflow-hidden">
+                <div class="bg-gray-800 flex items-center justify-center overflow-hidden">
                   <img src="/tech/tailwindcss.png" alt="TailwindCSS" class="w-full h-full object-cover scale-150 group-hover:scale-100 transition-transform duration-500 ease-out" style="transform-origin: 15% 99%;" />
                 </div>
                 <div class="p-4 flex flex-col justify-center">
@@ -142,7 +142,7 @@
             </div>
             <div class="bg-gray-800/70 rounded-2xl overflow-hidden hover:bg-gray-800/90 transition-all duration-300 shadow-md hover:shadow-lg group">
               <div class="grid grid-cols-2">
-                <div class="bg-gradient-to-r from-red-500 to-orange-500 flex items-center justify-center overflow-hidden">
+                <div class="bg-gray-800 flex items-center justify-center overflow-hidden">
                   <img src="/tech/nuxt.png" alt="Nuxt" class="w-full h-full object-cover scale-125 group-hover:scale-100 transition-transform duration-500 ease-out" style="transform-origin: 1% 1%;" />
                 </div>
                 <div class="p-4 flex flex-col justify-center">
