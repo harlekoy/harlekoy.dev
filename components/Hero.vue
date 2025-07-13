@@ -2,8 +2,20 @@
   <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative">
     <div class="max-w-7xl mx-auto">
       <div class="grid md:grid-cols-2 gap-12 items-center">
-        <!-- Text Content - Left Side -->
-        <div class="text-left">
+        <!-- Avatar - Top on mobile, Right on desktop -->
+        <div class="flex justify-center md:justify-end order-1 md:order-2">
+          <div class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full flex items-center justify-center shadow-xl overflow-hidden relative group perspective-1000">
+            <div class="w-full h-full rounded-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180">
+              <!-- Front side -->
+              <img src="/avatar.png" alt="Harley's Avatar" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden" />
+              <!-- Back side -->
+              <img src="/harley.jpg" alt="Harley's Photo" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden rotate-y-180" />
+            </div>
+          </div>
+        </div>
+        
+        <!-- Text Content - Bottom on mobile, Left on desktop -->
+        <div class="text-left order-2 md:order-1">
           <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">
             Hi, I'm <span class="bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">{{ currentName }}</span><span class="cursor-blink">|</span>
           </h1>
@@ -20,18 +32,6 @@
             <a href="https://x.com/harlequindoyon" target="_blank" rel="noopener noreferrer">
               <Icon name="fa6-brands:x-twitter" class="text-emerald-400 hover:text-white text-2xl transition-colors duration-200" />
             </a>
-          </div>
-        </div>
-        
-        <!-- Avatar - Right Side -->
-        <div class="flex justify-center md:justify-end">
-          <div class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full flex items-center justify-center shadow-xl overflow-hidden relative group perspective-1000">
-            <div class="w-full h-full rounded-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180">
-              <!-- Front side -->
-              <img src="/avatar.png" alt="Harley's Avatar" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden" />
-              <!-- Back side -->
-              <img src="/harley.jpg" alt="Harley's Photo" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden rotate-y-180" />
-            </div>
           </div>
         </div>
       </div>
