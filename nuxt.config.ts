@@ -11,7 +11,10 @@ export default defineNuxtConfig({
   // Cloudflare Pages configuration
   nitro: {
     preset: 'cloudflare-pages',
-    nodeCompat: true
+    nodeCompat: true,
+    prerender: {
+      routes: ['/']
+    }
   },
   // Vite configuration to allow all hosts
   vite: {
