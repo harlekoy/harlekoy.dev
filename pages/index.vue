@@ -495,7 +495,32 @@ import Hero from '@/components/Hero.vue'
 
 // Set page title
 useHead({
-  title: 'Harlequin Doyon | Full-stack developer'
+  title: 'Harlequin Doyon | Full-stack developer',
+  meta: [
+    // Open Graph / Facebook
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: 'https://harlekoy.dev' },
+    { property: 'og:title', content: 'Harlequin Doyon | Full-stack developer' },
+    { property: 'og:description', content: 'I\'m a Full-stack developer who loves making apps come alive with Laravel and Vue.js. I thrive under pressure and love turning ideas into interactive experiences.' },
+    { property: 'og:image', content: 'https://harlekoy.dev/meta.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '628' },
+    
+    // Twitter
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:url', content: 'https://harlekoy.dev' },
+    { name: 'twitter:title', content: 'Harlequin Doyon | Full-stack developer' },
+    { name: 'twitter:description', content: 'I\'m a Full-stack developer who loves making apps come alive with Laravel and Vue.js. I thrive under pressure and love turning ideas into interactive experiences.' },
+    { name: 'twitter:image', content: 'https://harlekoy.dev/meta.png' },
+    
+    // LinkedIn
+    { property: 'og:site_name', content: 'Harlequin Doyon' },
+    { property: 'og:locale', content: 'en_US' },
+    
+    // Additional meta
+    { name: 'description', content: 'I\'m a Full-stack developer who loves making apps come alive with Laravel and Vue.js. I thrive under pressure and love turning ideas into interactive experiences.' },
+    { name: 'author', content: 'Harlequin Doyon' }
+  ]
 })
 
 // Navigation visibility state
