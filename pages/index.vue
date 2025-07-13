@@ -213,16 +213,7 @@
               I love crafting technical specifications that help other developers succeed, providing support when things need fixing, 
               and jumping in to solve user issues quickly. Some of my best work happens during those high-stakes launches where everything needs to work perfectly.
             </p>
-            <div class="flex space-x-6">
-              <div class="flex items-center space-x-2 text-emerald-400">
-                <Icon icon="pixelarticons:target" class="text-2xl" />
-                <span class="font-medium">Backend Expert</span>
-              </div>
-              <div class="flex items-center space-x-2 text-teal-400">
-                <Icon icon="pixelarticons:rocket" class="text-2xl" />
-                <span class="font-medium">Pressure Handler</span>
-              </div>
-            </div>
+            <p class="text-sm italic text-gray-500">As you may notice, I am using Ghibli characters. Yes. I love their movies ❤️ — and yes, I did not design these characters. Sorry!</p>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="overflow-hidden bg-gray-800/70 rounded-2xl flex items-center min-h-[96px] shadow-md hover:shadow-lg transition-shadow group border border-transparent hover:border-white">
