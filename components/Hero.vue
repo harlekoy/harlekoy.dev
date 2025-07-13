@@ -25,8 +25,13 @@
         
         <!-- Avatar - Right Side -->
         <div class="flex justify-center md:justify-end">
-          <div class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-xl transform hover:scale-105 transition-transform duration-300 overflow-hidden">
-            <img src="/avatar.png" alt="Harley's Avatar" class="w-full h-full object-cover" />
+          <div class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full flex items-center justify-center shadow-xl overflow-hidden relative group perspective-1000">
+            <div class="w-full h-full rounded-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180">
+              <!-- Front side -->
+              <img src="/avatar.png" alt="Harley's Avatar" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden" />
+              <!-- Back side -->
+              <img src="/harley.jpg" alt="Harley's Photo" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden rotate-y-180" />
+            </div>
           </div>
         </div>
       </div>
@@ -165,5 +170,26 @@ onUnmounted(() => {
   animation: blink 1s infinite;
   color: #fff;
   font-weight: bold;
+}
+
+/* 3D Flip Animation */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.group:hover .group-hover\:rotate-y-180 {
+  transform: rotateY(180deg);
 }
 </style> 
