@@ -43,7 +43,7 @@
               <div class="p-4 flex flex-col justify-center">
                 <h4 class="text-white font-bold text-lg mb-2">TailwindCSS</h4>
                 <p class="text-gray-300 text-sm leading-relaxed mb-3">
-                  I love writing CSS using Tailwind speeding up development.
+                  I enjoy writing CSS with Tailwind—it really speeds up development. I've been a fan of Adam Wathan since his TDD course, which I bought before Tailwind even existed. And yes, I still use TDD daily!
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@
               <div class="p-4 flex flex-col justify-center">
                 <h4 class="text-white font-bold text-lg mb-2">Nuxt</h4>
                 <p class="text-gray-300 text-sm leading-relaxed mb-3">
-                  Nuxt is a great framework on top of Vue.js which helps us build apps faster.
+                  Nuxt is an awesome framework built on top of Vue.js that makes building apps so much faster. And with Nitro in the mix — muah! 🤌
                 </p>
               </div>
             </div>
