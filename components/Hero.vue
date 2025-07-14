@@ -5,11 +5,11 @@
         <!-- Avatar - Top on mobile, Right on desktop -->
         <div class="flex justify-center md:justify-end order-1 md:order-2">
           <div class="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full flex items-center justify-center shadow-xl overflow-hidden relative group perspective-1000">
-            <div class="w-full h-full rounded-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180">
+            <div class="w-full h-full rounded-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180" :class="{ 'rotate-y-180': showFront }">
               <!-- Front side -->
-              <img src="/avatar.png" alt="Harley's Avatar" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden" />
+              <img src="/harley.jpg" alt="Harley's Avatar" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden" />
               <!-- Back side -->
-              <img src="/harley.jpg" alt="Harley's Photo" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden rotate-y-180" />
+              <img src="/avatar.png" alt="Harley's Photo" class="w-full h-full object-cover rounded-full absolute inset-0 backface-hidden rotate-y-180" />
             </div>
           </div>
         </div>
@@ -41,6 +41,9 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+
+// Avatar animation state
+const showFront = ref(false)
 
 // Name animation logic
 const names = ['Harley', 'Harlequin']
@@ -150,6 +153,11 @@ const cycleNames = () => {
 onMounted(() => {
   // Start name animation
   cycleNames()
+  
+  // Avatar animation: show back first, then flip to front after 5 seconds
+  setTimeout(() => {
+    showFront.value = true
+  }, 2000)
 })
 
 onUnmounted(() => {
@@ -189,7 +197,8 @@ onUnmounted(() => {
   transform: rotateY(180deg);
 }
 
+/* Hover effect - this will override the showFront class when hovering */
 .group:hover .group-hover\:rotate-y-180 {
-  transform: rotateY(180deg);
+  transform: rotateY(0deg) !important;
 }
 </style> 
