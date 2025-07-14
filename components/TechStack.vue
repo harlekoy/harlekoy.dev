@@ -133,7 +133,7 @@
               </p>
             </div>
           </div>
-          <div class="bg-gray-800/70 rounded-2xl p-4 flex items-center shadow-md hover:bg-gray-800/90 hover:shadow-lg transition-all duration-300 group relative overflow-hidden h-16 hover:h-40">
+          <div class="bg-gray-800/70 rounded-2xl p-4 flex items-center shadow-md hover:bg-gray-800/90 hover:shadow-lg transition-all duration-300 group relative overflow-hidden h-16 hover:h-32">
             <div class="flex items-center transition-all duration-300 group-hover:opacity-0 group-hover:scale-90">
               <img src="/tech/vitejs.svg" alt="Vite" class="w-8 h-8 mr-4" />
               <span class="text-white font-bold text-lg">Vite</span>
