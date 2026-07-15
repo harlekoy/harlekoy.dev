@@ -13,6 +13,7 @@
         <div class="hidden md:flex space-x-8">
           <a href="#about" class="text-gray-300 hover:text-emerald-400 transition-colors font-medium">About</a>
           <a href="#experience" class="text-gray-300 hover:text-emerald-400 transition-colors font-medium">Experience</a>
+          <a href="#apps" class="text-gray-300 hover:text-emerald-400 transition-colors font-medium">Apps</a>
           <a href="#tech-stack" class="text-gray-300 hover:text-emerald-400 transition-colors font-medium">Tech Stack</a>
           <a href="#community" class="text-gray-300 hover:text-emerald-400 transition-colors font-medium">Community</a>
           <a href="#contact" class="text-gray-300 hover:text-emerald-400 transition-colors font-medium">Contact</a>
@@ -52,15 +53,22 @@
           >
             About
           </a>
-          <a 
-            href="#experience" 
+          <a
+            href="#experience"
             class="block text-gray-300 hover:text-emerald-400 transition-colors font-medium text-base text-center py-2"
             @click="closeMobileMenu"
           >
             Experience
           </a>
-          <a 
-            href="#tech-stack" 
+          <a
+            href="#apps"
+            class="block text-gray-300 hover:text-emerald-400 transition-colors font-medium text-base text-center py-2"
+            @click="closeMobileMenu"
+          >
+            Apps
+          </a>
+          <a
+            href="#tech-stack"
             class="block text-gray-300 hover:text-emerald-400 transition-colors font-medium text-base text-center py-2"
             @click="closeMobileMenu"
           >

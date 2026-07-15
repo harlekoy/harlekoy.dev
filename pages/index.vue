@@ -15,6 +15,9 @@
     <!-- Experience Section -->
     <Experience />
 
+    <!-- Apps Section -->
+    <Apps />
+
     <!-- Community Involvement Section -->
     <Community />
 
